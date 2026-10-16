@@ -17,6 +17,7 @@ cask "dataquery" do
 
   # DataQuery updates itself (Settings → About → Updates).
   auto_updates true
+  depends_on :macos
 
   app "DataQuery.app"
 
