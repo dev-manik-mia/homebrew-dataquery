@@ -34,3 +34,4 @@ cask "dataquery" do
     "~/Library/WebKit/dev.dataquery.app",
   ]
 end
+# Write-access check for the release workflow; the workflow removes this line.
