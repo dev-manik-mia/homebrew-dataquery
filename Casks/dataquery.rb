@@ -1,9 +1,9 @@
 cask "dataquery" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.3"
-  sha256 arm:   "2139f5160b857ef92928856724b8e1b40e6abd11bc4f629b275d698828a2447b",
-         intel: "50aedc9da7af2e3a09f090b2f0d3efa4a599473bb228dd6683d69c52b3b898b8"
+  version "0.2.4"
+  sha256 arm:   "51459477463532893e239525cc6eabef7f85453518ce14df60bb21ce03e28091",
+         intel: "c7432371a1e1522a69a8ca99a771377b45448452bc560b99b5cf4440d9fda95e"
 
   url "https://github.com/dev-manik-mia/DataQuery/releases/download/v#{version}/DataQuery_#{version}_#{arch}.dmg"
   name "DataQuery"
